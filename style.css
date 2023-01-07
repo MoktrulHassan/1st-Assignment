@@ -1,0 +1,153 @@
+/* banner part */
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.banner{
+    background-image: url(/images/banner/banner4.png);
+    height: 850px;
+    width: 1520px;
+}
+.banner-head{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 250px;
+    padding-left: 150px;
+    padding-right: 750px;
+    padding-bottom: 20px;
+    
+}
+.banner-description{
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+    padding-left: 150px;
+    padding-right: 800px;
+    padding-bottom: 10px;
+}
+.Contract-btn{
+    margin-left: 550px;
+    padding: 20px 30px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+/* section part */
+.section-head{
+    display: flex;
+    padding-top: 100px;
+    
+}
+.section-img{
+    margin-left: 200px;
+}
+.S-head{
+    font-size: 40px;
+   padding-top: 150px;
+   padding-left: 150px; 
+   padding-right: 200px;
+   padding-bottom: 40px;
+}
+.S-description{
+    color:#484c50;
+    padding-right: 200px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+
+}
+.U-list{
+    color: #484c50;
+    padding-left: 180px;
+}
+/* My Plans Part */
+.plans{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.p-container{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.P-lead{
+    font-size: 50px;
+    padding-left: 700px;
+    padding-bottom: 70px;
+}
+.p-head{
+    font-size: 22px;
+    padding: 10px 0px;
+}
+/* gradient Part */
+.gradient{
+    background-image:
+    linear-gradient(to bottom, rgba(6, 56, 184, 0.52), rgba(229, 229, 238, 0.47)),
+    url(/images/watch.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1020px;
+    margin-left: 280px;
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+.gradient-text{
+    color: white;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 400px;
+}
+.g-btn{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 20px 40px;
+    border-color: white;
+    border-radius: 10px;
+    color: rgb(18, 18, 92);
+
+    
+}
+/* footer Part */
+.footer{
+    padding: 100px 150px;
+    background-color: #010a13;
+    color: aliceblue;
+}
+.f-container{
+    display: flex;
+    justify-content: center;
+}
+.f-head{
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+.f-para{
+    padding-bottom: 20px;
+    padding-right: 600px;
+
+}
+.form-head{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.input{
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    background-color: #010a13;
+    color: aliceblue;
+}
+.f-btn{
+   padding: 15px 25px;
+   background-color: rgb(21, 21, 169);
+   color: aliceblue;
+   border-color: rgb(21, 21, 169);
+   border-radius: 10px;
+
+}
